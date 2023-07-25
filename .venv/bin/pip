@@ -1,4 +1,4 @@
-#!/Users/danielquinn/School/401-codefellows/class-demo/.venv/bin/python
+#!/Users/danielquinn/School/401-codefellows/snacks-crud/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
