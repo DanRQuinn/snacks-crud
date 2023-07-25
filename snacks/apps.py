@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class Cd28Config(AppConfig):
+class snacks_crud_projectConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'cd28'
+    name = 'snacks_crud_project'
