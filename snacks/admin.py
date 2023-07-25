@@ -3,3 +3,4 @@ from .models import Snack
 
 admin.site.register(Snack)
 
+
