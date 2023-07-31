@@ -1,19 +1,33 @@
-# snacks-crud
+# cookie_stand-api_
 
 ## Description
 
-This is a CRUD application that allows users to create, read, update, and delete snacks. It is built with Django and Python.
+This is a CRUD application that allows users to create, read, update, and delete cookies. It is built with Django and Python.
 
 ## run the app
 
-python3 manage.py runserver
+1. Clone the repo
 
-## Routes
+2. Create a virtual environment
 
-- GET /snacks
-- POST /snacks
-- GET /snacks/:id
-- PUT /snacks/:id
-- DELETE /snacks/:id
+3. Install dependencies
+
+4. Create a .env file based on the example.env
+
+5. Run the app
+
+  python3 manage.py runserver
+
+6. Visit [http://127.0.0.1:8000/snacks/](http://127.0.0.1:8000/snacks/) and add snacks
+
+## API Endpoints/
+
+Routes
+GET /cookies
+POST /cookies
+GET /cookies/:id
+PUT /cookies/:id
+DELETE /cookies/:id
+
 
 

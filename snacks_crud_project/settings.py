@@ -37,6 +37,7 @@ DEBUG = env.bool('DEBUG')
 
 ALLOWED_HOSTS = []
 
+COMPRESS_ROOT = 'path/to/your/static/folder/'
 
 # Application definition
 
@@ -47,6 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'compressor',
     'snacks',
 ]
 
