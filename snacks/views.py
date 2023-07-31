@@ -4,29 +4,29 @@ from django.urls import reverse_lazy
 
 
 class SnackListView(ListView):
-    template_name = 'snack-list.html'
+    template_name = 'snack_list.html'
     model = Snack
     context_object_name = 'snacks'
 
 
 class SnackDetailView(DetailView):
-    template_name = 'snack-detail.html'
+    template_name = 'snack_detail.html'
     model = Snack
 
 
 class SnackCreateView(CreateView):
-    template_name = 'snack-create.html'
+    template_name = 'snack_create.html'
     model = Snack
     fields = ['name', 'description', 'purchaser']
 
 
 class SnackUpdateView(UpdateView):
-    template_name = 'snack-update.html'
+    template_name = 'snack_update.html'
     model = Snack
     fields = ['name', 'description', 'purchaser']
 
 
 class SnackDeleteView(DeleteView):
-    template_name = 'snack-delete.html'
+    template_name = 'snack_delete.html'
     model = Snack
     success_url = reverse_lazy('list_view')
